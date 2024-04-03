@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    /* background-color: rgb(29, 29, 29); */
+    max-width: 350px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.result {
+    /* background-color: #777777; */
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 15px;
+}
+
+.calculator {
+    text-align: center;
+    
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    border: none;
+    margin: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+
+    background-color: #414141;
+    color: #fff;
+
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #707070;
+}
+
+#zero {
+    width: 156px;
+    border-radius: 40px;
+}
+
+.ac, .positive-negative, .percent {
+    background-color: #b3b3b3;
+    color: #000;
+}
+
+.ac:hover, .positive-negative:hover, .percent:hover {
+    background-color: #ececec;
+}
+
+.division, .x, .subtraction, .add, .equal {
+    background-color: #fca400;
+    color: white;
+}
+
+.division:hover, .x:hover, .subtraction:hover, .add:hover, .equal:hover {
+    background-color: #ffd485;
+}
+
